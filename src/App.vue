@@ -68,11 +68,17 @@ main{
 a{
   text-decoration: none;
 }
+a:hover{
+  color: #ffffff;
+}
 
 .link.active{
   background-color: #ffffff;
   color: #000000;
   text-decoration: none;
+}
+.link.active:hover{
+  color: #000000;
 }
 
 @media (min-width: 1024px) {

@@ -1,4 +1,3 @@
-import ProjetLaravelVue from '@/components/ProjetLaravel.vue'
 import ContactVue from '@/views/Contact.vue'
 import ProjetsVue from '@/views/Projets.vue'
 import { createRouter, createWebHistory } from 'vue-router'
@@ -21,12 +20,6 @@ const router = createRouter({
       path: '/projets',
       name: 'projets',
       component: ProjetsVue,
-      children: [
-        {
-          path:'laravel',
-          component: ProjetLaravelVue,
-        },
-      ]
     },
   ]
 })
