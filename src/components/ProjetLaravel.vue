@@ -1,8 +1,11 @@
 <script setup lang="ts">
+import {RouterLink} from 'vue-router'
+    
 </script>
 
 <template>
-    <h3>PROJETS LARAVEL</h3>
+    <div class="description"></div>
+    <div class="illustration"></div>
 </template>
 
 <style scoped>

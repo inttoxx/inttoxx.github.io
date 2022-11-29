@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import {RouterView} from 'vue-router'
 </script>
 
 <template>
@@ -11,18 +11,11 @@ import { RouterLink, RouterView } from 'vue-router'
   </header>
 
   <main>
-    <div class="links">
-      <RouterLink :to="{name: 'home'}" class="link presentation active">PRESENTATION</RouterLink>
-      <RouterLink :to="{name: 'projets'}" class="link projets">PROJETS</RouterLink>
-      <RouterLink :to="{name: 'contact'}" class="link contact">CONTACT</RouterLink>
-    </div>
-    <div class="view-container">
-      <RouterView />
-    </div>
+    <RouterView />
   </main>
 </template>
 
-<style scoped>
+<style>
 header{
   height: 30vh;
 }
@@ -31,6 +24,7 @@ main{
   width: 80%;
   margin: auto;
 }
+
 .name {
   text-align: center;
   position: absolute;
@@ -71,13 +65,13 @@ main{
   border-radius: 0 10px 0 0;
 }
 
-.link.active{
-  background-color: #ffffff;
-  color: #000000;
+a{
   text-decoration: none;
 }
 
-a{
+.link.active{
+  background-color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 

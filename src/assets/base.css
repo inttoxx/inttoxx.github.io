@@ -85,4 +85,6 @@ h2{
   background-color: transparent;
   border: 1px solid #f47703;
   border-radius: 50px;
+  padding: 1em;
+  transition: 400ms;
 }

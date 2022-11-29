@@ -1,3 +1,6 @@
+import ProjetLaravelVue from '@/components/ProjetLaravel.vue'
+import ContactVue from '@/views/Contact.vue'
+import ProjetsVue from '@/views/Projets.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
@@ -10,15 +13,21 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/projets',
-      name: 'projets',
-      component: () => import('../views/Projets.vue')
-    },
-    {
       path: '/contact',
       name: 'contact',
-      component: () => import('../views/Contact.vue')
-    }
+      component: ContactVue
+    },
+    {
+      path: '/projets',
+      name: 'projets',
+      component: ProjetsVue,
+      children: [
+        {
+          path:'laravel',
+          component: ProjetLaravelVue,
+        },
+      ]
+    },
   ]
 })
 
