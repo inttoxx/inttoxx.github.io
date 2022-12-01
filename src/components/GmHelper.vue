@@ -10,23 +10,30 @@
                     <p>Projet personel</p>
                 </div>
                 <p class="description-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue metus in augue pharetra, id lacinia risus scelerisque. Aliquam porttitor eros nec neque condimentum, ac imperdiet mi consectetur. Etiam vitae odio non elit tempus rhoncus in in metus. Etiam rhoncus euismod velit, eget faucibus libero imperdiet sit amet. Mauris aliquet elementum erat, in lobortis ligula luctus eget. Sed tristique sem venenatis, ultricies sapien nec, rutrum nibh. Fusce id neque congue, tempus dui eget, aliquet nisl. Sed vitae volutpat diam.
+                    Etant maitre du jeu pour une campage sur le jeu "Chronique oubliée fantaisie"
+                    j'ai eu l'idée de développer une plateforme afin d'aider les GM à gérer leurs partis.
+                    le but de la plateforme sera de répétorier les diférentes tables des GMs, 
+                    les personages des joeurs autour de la table (pv, invantaire, capacités, niveau), et de facilité la gestion des combats
+                    avec la gestion de l'ordre de priorité des tours, les dégats infligés, la durée des bonus et malus et peut etre plus si affinités.
                 </p>
                 <div>
                     <div class="project-technologies">
-                        <img src="/nest-logo.png" alt="nest">
-                        <img src="/favicon.ico" alt="vue">
-                        <img src="/mongodb-logo.png" alt="mongoBB">
+                        <img src="/logos/nest-logo.png" alt="nest">
+                        <img src="/logos/favicon.ico" alt="vue">
+                        <img src="/logos/mongodb-logo.png" alt="mongoBB">
                     </div>
                 </div>
                 <a href="https://github.com/inttoxx" class="project-github" target="_blank">
-                    <img src="/github-logo.png" alt="GM Helper">
+                    <img src="/logos/github-logo.png" alt="GM Helper">
                 </a>
             </div>
-            <img class="project-illustration" src="/photo-presentation.jpg" alt="">
+            <img class="logo-wip" src="/gmHelper/wip.jpg" alt="">
         </div>
     </div>
 </template>
 
-<style>
+<style scoped>
+    .logo-wip{
+        height: 400px;
+    }
 </style>

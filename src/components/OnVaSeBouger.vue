@@ -7,26 +7,32 @@
             <div class="project-description">
                 <div class="project-title">
                     <h3>On va se Bouger</h3>
-                    <p>Projet scholaire</p>
+                    <p>Projet scholaire (2 semaines)</p>
                 </div>
                 <p class="description-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue metus in augue pharetra, id lacinia risus scelerisque. Aliquam porttitor eros nec neque condimentum, ac imperdiet mi consectetur. Etiam vitae odio non elit tempus rhoncus in in metus. Etiam rhoncus euismod velit, eget faucibus libero imperdiet sit amet. Mauris aliquet elementum erat, in lobortis ligula luctus eget. Sed tristique sem venenatis, ultricies sapien nec, rutrum nibh. Fusce id neque congue, tempus dui eget, aliquet nisl. Sed vitae volutpat diam.
+                    Projet de fin de sécialisation full stack de la coding academy.
+                    Nous devions développer un site de partage d'activités sur starsbourg.
+                    Nous devions nous servir de tout ce que nous avions appris mais le veritable objectif du projet 
+                    été de régiger une documentation compléte. Vous trouverez donc sur git hub toute la documentation que j'ai rédiger.
                 </p>
                 <div>
                     <div class="project-technologies">
-                        <img src="/nest-logo.png" alt="nest">
-                        <img src="/favicon.ico" alt="vue">
-                        <img src="/mongodb-logo.png" alt="mongoBB">
+                        <img src="/logos/nest-logo.png" alt="nest">
+                        <img src="/logos/favicon.ico" alt="vue">
+                        <img src="/logos/mongodb-logo.png" alt="mongoBB">
                     </div>
                 </div>
                 <a href="https://github.com/inttoxx/OVSB" class="project-github" target="_blank">
-                    <img src="/github-logo.png" alt="On va se Bouger">
+                    <img src="/logos/github-logo.png" alt="On va se Bouger">
                 </a>
             </div>
-            <img class="project-illustration" src="/photo-presentation.jpg" alt="">
+            <img class="ovsb-logo" src="/onVaSeBouger/OVSB-logo.png" alt="">
         </div>
     </div>
 </template>
 
-<style>
+<style scoped>
+    .ovsb-logo{
+        height: 400px;
+    }
 </style>

@@ -18,10 +18,10 @@
     </p>
     <img src="/photo-presentation.jpg" alt="Photo de profil">
     <a href="https://www.linkedin.com/in/valentin-lorquin-70b95b106/" class="logo-resaux linkedin" target="_blank">
-      <img src="/linkedin-logo.png" alt="linledin.com/in/valentin-lorquin">
+      <img src="/logos/linkedin-logo.png" alt="linledin.com/in/valentin-lorquin">
     </a>
     <a href="https://github.com/inttoxx" class="logo-resaux github" target="_blank">
-      <img src="/github-logo.png" alt="github.com/inttoxx">
+      <img src="/logo/github-logo.png" alt="github.com/inttoxx">
     </a>
   </div>
 </template>

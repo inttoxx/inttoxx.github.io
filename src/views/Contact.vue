@@ -37,7 +37,7 @@
       </div>
       <div class="body">
         <label for="body">votre message :</label>
-        <textarea id="body" cols="30" rows="10" v-model="body"></textarea>
+        <textarea id="body" cols="30" rows="6" v-model="body"></textarea>
       </div>
       {{url}}
     </div>
@@ -87,9 +87,17 @@
     flex-direction: column;
     justify-content: flex-end;
   }
+  .btn{
+    background-color: transparent;
+    border: 1px solid #f47703;
+    border-radius: 50px;
+    padding: 1em;
+    transition: 400ms;
+  }
   .btn:hover{
     cursor: pointer;
     margin-bottom: 10px;
   }
+
 </style>
 

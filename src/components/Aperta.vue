@@ -7,25 +7,31 @@
             <div class="project-description">
                 <div class="project-title">
                     <h3>Aperta</h3>
-                    <p>Projet de stage</p>
+                    <p>Projet de stage (5 mois)</p>
                 </div>
                 <p class="description-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue metus in augue pharetra, id lacinia risus scelerisque. Aliquam porttitor eros nec neque condimentum, ac imperdiet mi consectetur. Etiam vitae odio non elit tempus rhoncus in in metus. Etiam rhoncus euismod velit, eget faucibus libero imperdiet sit amet. Mauris aliquet elementum erat, in lobortis ligula luctus eget. Sed tristique sem venenatis, ultricies sapien nec, rutrum nibh. Fusce id neque congue, tempus dui eget, aliquet nisl. Sed vitae volutpat diam.
+                    Aperta est une plateforme d'apprentissage de la cybersécurité qui a pour cible les écoles Françaises.
+                    Durant mon stage j'ai réalisé les maquette du site sur Figma puis je les ais implémentées.
+                    J'ai également eu l'occasion de développer un systeme de pricing pour au travers de diférent plan que j'ai implémenter dans l'api et dans le front.
+                    J'ai eu l'occasion de travailler en autonomie et de découvrir le GO.
                 </p>
                 <div>
                     <div class="project-technologies">
-                        <img src="/Golang-logo.png" alt="golang">
-                        <img src="/javascript-logo.png" alt="javascript">
-                        <img src="/html-logo.png" alt="HTML">
-                        <img src="/css-logo.png" alt="CSS">
-                        <img src="/mongodb-logo.png" alt="mongoBB">
+                        <img src="/logos/Golang-logo.png" alt="golang">
+                        <img src="/logos/javascript-logo.png" alt="javascript">
+                        <img src="/logos/html-logo.png" alt="HTML">
+                        <img src="/logos/css-logo.png" alt="CSS">
+                        <img src="/logos/mongodb-logo.png" alt="mongoBB">
                     </div>
                 </div>
                 <a href="https://aperta.io" class="project-github" target="_blank">
-                    <img src="/aperta-logo.webp" alt="Aperta">
+                    <img src="/logos/aperta-logo.webp" alt="Aperta">
                 </a>
             </div>
-            <img class="project-illustration" src="/photo-presentation.jpg" alt="">
+            <div class="project-illustration">
+                <img src="/Aperta/aperta-dashboard.png" alt="">
+                <img src="/Aperta/aprta-searchpage.png" alt="">
+            </div>
         </div>
     </div>
 </template>

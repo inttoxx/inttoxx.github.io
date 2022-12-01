@@ -80,11 +80,3 @@ h2{
   line-height: 1.3;
   color: #ffffff;
 }
-
-.btn{
-  background-color: transparent;
-  border: 1px solid #f47703;
-  border-radius: 50px;
-  padding: 1em;
-  transition: 400ms;
-}

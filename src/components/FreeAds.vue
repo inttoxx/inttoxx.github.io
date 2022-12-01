@@ -7,23 +7,30 @@
             <div class="project-description">
                 <div class="project-title">
                     <h3>Free Ads</h3>
-                    <p>Projet scholaire</p>
+                    <p>Projet scholaire (1 semaine)</p>
                 </div>
                 <p class="description-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue metus in augue pharetra, id lacinia risus scelerisque. Aliquam porttitor eros nec neque condimentum, ac imperdiet mi consectetur. Etiam vitae odio non elit tempus rhoncus in in metus. Etiam rhoncus euismod velit, eget faucibus libero imperdiet sit amet. Mauris aliquet elementum erat, in lobortis ligula luctus eget. Sed tristique sem venenatis, ultricies sapien nec, rutrum nibh. Fusce id neque congue, tempus dui eget, aliquet nisl. Sed vitae volutpat diam.
+                    Ce projet avait pour but de nous faire découvrir l'architachture MVC au traver du frameword laravel.
+                    Nous avons également appris à utiliser larvalel sanctum pour l'authentification et eloquant pour l'ORM.
+                    Nous devions de créer un site ou les utilisateurs pouvait partager des annonce de prpduit a vendre un peut comme "le bon coin", 
+                    tout en ayant une partie réservé aux administrateurs avec des cruds pour chasque tables de la base de donnée. 
+                    En bonus j'ai églement implémenter un filtre pour retrouver les produits plus facilement.
                 </p>
                 <div>
                     <div class="project-technologies">
-                        <img src="/laravel-logo.png" alt="laravel">
-                        <img src="/bootstrap-logo.png" alt="bootstrap">
-                        <img src="/mongodb-logo.png" alt="mongoBB">
+                        <img src="/logos/laravel-logo.png" alt="laravel">
+                        <img src="/logos/bootstrap-logo.png" alt="bootstrap">
+                        <img src="/logos/mysql-logo.png" alt="mysql">
                     </div>
                 </div>
                 <a href="https://github.com/inttoxx/Projet-Laravel" class="project-github" target="_blank">
-                    <img src="/github-logo.png" alt="Free Ads">
+                    <img src="/logos/github-logo.png" alt="Free Ads">
                 </a>
             </div>
-            <img class="project-illustration" src="/photo-presentation.jpg" alt="">
+            <div class="project-illustration">
+                <img src="/free-ads/index-free-ads.png" alt="">
+                <img src="/free-ads/crud-free-ads.png" alt="">
+            </div>
         </div>
     </div>
 </template>
@@ -71,8 +78,15 @@
     }
 
     .project-illustration{
+        display: flex;
+        flex-direction: column;
         width: 30%;
-        height: 450px;
+        height: 400px;
+        justify-content: space-between;
+    }
+    .project-illustration img{
+        width: 100%;
+        height: 49%;
     }
 
     .carousel-indicators{
