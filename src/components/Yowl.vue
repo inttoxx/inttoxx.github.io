@@ -9,11 +9,14 @@
                     <h3>Yowl</h3>
                     <p>Projet scholaire (2 semaines)</p>
                 </div>
+                <p>
+                    Objectif : <br>
+                    développer une plateforme de partage de contenu numérique à la "twitter"
+                </p>
                 <p class="description-text">
                     Projet de fin de tronc commun de la coding académy by epitech.
-                    Le but été de développer une plateforme de partage de contenue numérique à la "twitter".
                     Nous devions gérer l'authentification, la partie administrateur et devions imperativement 
-                    développer une a^pi pour diaoguer avec les backend.
+                    développer une api pour dialoguer avec les backend.
                 </p>
                 <div>
                     <div class="project-technologies">

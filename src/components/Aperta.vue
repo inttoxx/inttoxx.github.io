@@ -9,11 +9,14 @@
                     <h3>Aperta</h3>
                     <p>Projet de stage (5 mois)</p>
                 </div>
+                <p>
+                    Objectif : <br>
+                    développer une platefomre d'apprentissage de la cybersécurité
+                </p>
                 <p class="description-text">
-                    Aperta est une plateforme d'apprentissage de la cybersécurité qui a pour cible les écoles Françaises.
-                    Durant mon stage j'ai réalisé les maquette du site sur Figma puis je les ais implémentées.
-                    J'ai également eu l'occasion de développer un systeme de pricing pour au travers de diférent plan que j'ai implémenter dans l'api et dans le front.
-                    J'ai eu l'occasion de travailler en autonomie et de découvrir le GO.
+                    Aperta est une plateforme destinéss aux écoles (cursus Tech/web) et qui a pour but l'apprentissage de la cybersécurité pour ses usagers.                    Durant mon stage j'ai réalisé les maquettes du site sur Figma puis je les ais implémentées.
+                    J'ai également eu l'occasion de développer un systeme de pricing au travers de différents plans que j'ai implémentés dans l'api et dans le front.
+                    Travail en autonomie et apprentissage du GO.
                 </p>
                 <div>
                     <div class="project-technologies">

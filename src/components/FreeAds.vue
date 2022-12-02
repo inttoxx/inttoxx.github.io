@@ -7,14 +7,17 @@
             <div class="project-description">
                 <div class="project-title">
                     <h3>Free Ads</h3>
-                    <p>Projet scholaire (1 semaine)</p>
+                    <p>Projet scolaire (1 semaine)</p>
                 </div>
+                <p>
+                    Objectif : <br>
+                    Développer une plateforme de vente b'objet d'occasion pour les particuliers
+                </p>
                 <p class="description-text">
-                    Ce projet avait pour but de nous faire découvrir l'architachture MVC au traver du frameword laravel.
+                    Ce projet avait pour but de nous faire découvrir l'architachture MVC au travers du frameword laravel.
                     Nous avons également appris à utiliser larvalel sanctum pour l'authentification et eloquant pour l'ORM.
-                    Nous devions de créer un site ou les utilisateurs pouvait partager des annonce de prpduit a vendre un peut comme "le bon coin", 
-                    tout en ayant une partie réservé aux administrateurs avec des cruds pour chasque tables de la base de donnée. 
-                    En bonus j'ai églement implémenter un filtre pour retrouver les produits plus facilement.
+                    Nous devions aussis prévoir une partie réservée aux administrateurs avec des cruds pour chaques tables de la base de données. 
+                    En bonus j'ai également implémenteé un filtre pour retrouver les produits plus facilement.
                 </p>
                 <div>
                     <div class="project-technologies">

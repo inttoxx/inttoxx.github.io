@@ -35,7 +35,7 @@
             <div class="carousel-inner">
                 <FreeAds/>
                 <Yowl />
-                <OnVaSeBouger />
+                <OnVaSeBouger />    
                 <Aperta />
                 <GmHelper />
             </div>
