@@ -11,10 +11,10 @@
                 </div>
                 <p>
                     Objectif : <br>
-                    Développer une plateforme de vente b'objet d'occasion pour les particuliers
+                    Développer une plateforme de vente d'objet d'occasion pour les particuliers
                 </p>
                 <p class="description-text">
-                    Ce projet avait pour but de nous faire découvrir l'architachture MVC au travers du frameword laravel.
+                    Ce projet avait pour but de nous faire découvrir l'architechture MVC au travers du frameword laravel.
                     Nous avons également appris à utiliser larvalel sanctum pour l'authentification et eloquant pour l'ORM.
                     Nous devions aussis prévoir une partie réservée aux administrateurs avec des cruds pour chaques tables de la base de données. 
                     En bonus j'ai également implémenteé un filtre pour retrouver les produits plus facilement.
