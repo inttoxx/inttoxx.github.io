@@ -9,7 +9,7 @@
     <RouterLink :to="{name: 'contact'}" class="link contact">CONTACT</RouterLink>
   </div>
   <div class="view-container">
-    <p>
+    <p class="personal-description">
       Apres un BTS et 5 ans d'experience dans l'hotellerie restauration, j'ai décidé de me réorienter dans le développement web après avoir validé mon projet par un bilan de compétences.
       J'ai commencé à me former sur openclassroom puis j'ai fait la "Coding Académy By Epitech", une formation de 5 mois pour 
       acquérire les bases du développement web, suivis d'un stage de 5 mois afin de mettre en pratique ce que j'ai appris dans le monde professionnel.
@@ -17,7 +17,7 @@
       Je souhaiterais orienter ma carriere vers un poste de développeur backend dans un premier temps, puis full stack, si possible en Javascript.
       Je suis actuellement à la recherche de mon premier emploi, vous pourrez trouver mon cv <a href="/cv-VL.pdf">ici</a>.
     </p>
-    <img src="/photo-presentation.jpg" alt="Photo de profil">
+    <img src="/photo-presentation.jpg" alt="Photo de profil" class="profile-picture">
     <div>
       <a href="https://www.linkedin.com/in/valentin-lorquin-70b95b106/" class="logo-resaux linkedin" target="_blank">
         <img src="/logos/linkedin-logo.png" alt="linledin.com/in/valentin-lorquin">
@@ -30,12 +30,12 @@
 </template>
 
 <style scoped>
-  p{
+  .personal-description{
     width: 680px;
     text-align: justify;
   }
 
-  img{
+  .profile-picture{
     width: 300px;
     height: 420px;
   }
