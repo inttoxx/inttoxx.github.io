@@ -39,7 +39,6 @@
         <label for="body">votre message :</label>
         <textarea id="body" cols="30" rows="6" v-model="body"></textarea>
       </div>
-      {{url}}
     </div>
     <div class="btn-container">
       <a :href="url" id='send-mail-btn' class="btn" @click="sendMail">ENVOYER</a>
@@ -97,6 +96,17 @@
   .btn:hover{
     cursor: pointer;
     margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 900px) {
+    .contact-form{
+      width: 90%;
+      height: 55vh;
+    }
+
+    .btn-container{
+      right: auto;
+    }
   }
 
 </style>

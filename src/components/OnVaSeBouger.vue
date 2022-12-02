@@ -41,6 +41,7 @@
 
     @media screen and (max-width: 900px){
         .ovsb-logo{
+            width: 190px;
             margin-top: 1em;
         }
     }

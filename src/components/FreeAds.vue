@@ -109,11 +109,14 @@
             flex-wrap: wrap;
         }
         .project-description{
-            width: 500px;
+            width: 190px;
         }
         .project-illustration{
-            width: 500px;
+            width: 190px;
             margin-top: 1em;
+        }
+        .project-github{
+            top: 65px;
         }
     }
 </style>

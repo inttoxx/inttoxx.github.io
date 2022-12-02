@@ -92,6 +92,11 @@ a:hover{
     justify-content: center;
     align-items: center;
   }
+
+  .cover{
+    min-height: 100vh !important;
+    height: fit-content !important;
+  }
   
   .name{
     position: relative;

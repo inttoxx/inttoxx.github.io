@@ -41,6 +41,7 @@
 
     @media screen and (max-width: 900px){
         .logo-yowl{
+            width: 190px;
             margin-top: 1em;
         }
     }

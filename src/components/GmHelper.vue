@@ -40,4 +40,10 @@
     .logo-wip{
         height: 400px;
     }
+
+    @media  (max-width: 900px) {
+        .logo-wip{
+            height: 190px;
+        }
+    }
 </style>
