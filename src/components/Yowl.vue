@@ -38,4 +38,10 @@
     .logo-yowl{
         height: 400px;
     }
+
+    @media screen and (max-width: 900px){
+        .logo-yowl{
+            margin-top: 1em;
+        }
+    }
 </style>

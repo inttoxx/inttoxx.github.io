@@ -103,4 +103,17 @@
     .carousel-dark .carousel-indicators [data-bs-target]{
         background-color: #F47703;
     }
+
+    @media screen and (max-width: 900px) {
+        .content{
+            flex-wrap: wrap;
+        }
+        .project-description{
+            width: 500px;
+        }
+        .project-illustration{
+            width: 500px;
+            margin-top: 1em;
+        }
+    }
 </style>

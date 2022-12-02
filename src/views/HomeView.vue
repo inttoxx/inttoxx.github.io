@@ -18,12 +18,14 @@
       Je suis actuellement à la recherche de mon premier emploi, vous pourrez trouver mon cv <a href="/cv-VL.pdf">ici</a>.
     </p>
     <img src="/photo-presentation.jpg" alt="Photo de profil">
-    <a href="https://www.linkedin.com/in/valentin-lorquin-70b95b106/" class="logo-resaux linkedin" target="_blank">
-      <img src="/logos/linkedin-logo.png" alt="linledin.com/in/valentin-lorquin">
-    </a>
-    <a href="https://github.com/inttoxx" class="logo-resaux github" target="_blank">
-      <img src="/logos/github-logo.png" alt="github.com/inttoxx">
-    </a>
+    <div>
+      <a href="https://www.linkedin.com/in/valentin-lorquin-70b95b106/" class="logo-resaux linkedin" target="_blank">
+        <img src="/logos/linkedin-logo.png" alt="linledin.com/in/valentin-lorquin">
+      </a>
+      <a href="https://github.com/inttoxx" class="logo-resaux github" target="_blank">
+        <img src="/logos/github-logo.png" alt="github.com/inttoxx">
+      </a>
+    </div>
   </div>
 </template>
 
@@ -54,4 +56,15 @@
     width: 50px;
     height: 50px;
   }
+
+@media screen and (max-width: 900px) {
+  .logo-resaux.github,
+  .logo-resaux.linkedin{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 1em;
+  }
+
+}
 </style>

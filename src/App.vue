@@ -81,7 +81,30 @@ a:hover{
   color: #000000;
 }
 
-@media (min-width: 1024px) {
- 
+@media screen and (max-width: 900px) {
+  body{
+    overflow-y: auto !important;
+    height: fit-content;
+  }
+  
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .name{
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  
+  .view-container{
+    flex-wrap: wrap;
+    height: fit-content;
+    padding: 1em;
+    box-sizing: border-box;
+    min-width: 350px;
+  }
 }
 </style>
