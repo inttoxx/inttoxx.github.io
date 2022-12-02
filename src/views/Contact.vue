@@ -105,7 +105,9 @@
     }
 
     .btn-container{
+      position: relative;
       right: auto;
+      bottom: auto;
     }
   }
 
