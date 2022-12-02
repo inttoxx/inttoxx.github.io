@@ -118,5 +118,8 @@
         .project-github{
             top: 65px;
         }
+        .project-technologies{
+            flex-wrap: wrap;
+        }
     }
 </style>
